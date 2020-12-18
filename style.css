@@ -28,6 +28,13 @@ nav a {
     padding-left: 20px;
     text-decoration: none;
 }
+nav a:hover {
+    color: #3221ce;
+    border-bottom: 1px bold #3221ce;
+    /* font-weight: 500px;
+    padding-left: 20px;
+    text-decoration: none; */
+}
 .button2 {
     text-decoration: none;
     padding-left: 20px;
