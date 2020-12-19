@@ -701,6 +701,9 @@ nav a:hover {
         /* width: 100%; */
         padding-top: 60px;
     }
+    .logo {
+        margin-left: -30px;
+    }
     .main1 {
         display: flex;
         flex-wrap: wrap;
@@ -831,6 +834,7 @@ nav a:hover {
     .card-header h3 {
         font-size: 1rem;
         line-height: 1.5rem;
+        padding: 0px 30px;
     }
     .cards {
         width: 100%;
