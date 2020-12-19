@@ -701,35 +701,124 @@ nav a:hover {
     }
     .container {
         /* width: 100%; */
-        padding-top: 150px;
+        padding-top: 60px;
     }
     .main1 {
-        background-color: rgb(87, 87, 141);
-        display: inline-block;
-        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
     }
     .hero1 {
-        /* background-color: rgb(39, 39, 170); */
-        margin: 0px 0px;
         width: 100%;
+        margin-left: 40px;
         text-align: center;
         margin-left: 0px;
-        padding: 0px 0px;
-        margin-bottom: 50px;
+        margin: 0px 30px;
+    }
+    .hero1 h3 {
+        font-size: 1rem;
+    }
+    .hero1 h1 {
+        font-size: 1.875rem;
+    }
+    .hero1 p {
+        font-size: 1rem;
     }
     .hero2 {
-        background-color: rgb(195, 20, 58);
-        width: 100%;
+        display: none;
+    }
+    .main1-button {
+        margin: 0px 0px;
+    }
+    .button1 {
+        display: none;
+    }
+    .button2 {
+        margin-top: 10px;
+        display: block;
+        margin-left: 0px;
+    }
+    .sponsor {
+        max-height: 50px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        margin: -70px 5px;
+        margin-bottom: 200px;
+    }
+    .sponsor1 {
+        max-width: 22%;
+    }
+    .sponsor2 {
+        max-width: 22%;  
+    }
+    .sponsor3 {
+        max-width: 22%;  
+    }
+    .sponsor4 {
+        max-width: 22%; 
+    }
+    .sponsor5 {
+        max-width: 22%;  
+    }
+    .sponsor6 {
+        max-width: 22%;  
+    }
+    .sponsor7 {
+        max-width: 22%; 
+    }
+    .sponsor8 {
+        max-width: 22%; 
+    }
+    .sponsor9 {
+        max-width: 22%;
     }
     .main2 {
-        display: block;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        margin-bottom: 1000px;
+    }
+    .hero3 {
         max-width: 100%;
+    }
+    .hero4 hr {
+        margin: 10px auto;
+    }
+    .hero4 {
+        max-width: 100%;
+        margin-top: -50px;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: -60px;
+        padding-right: 40px;
+        padding-bottom: 50px;
     }
     .main3 {
-        display: block;
-        max-width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+
+        margin-left: -100px;
+        margin-bottom: 1000px;
     }
-    
+    .hero5 {
+        width: 100%;
+    }
+    .hero6 {
+        width: 100%;
+    }
+    .main4 {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        margin-bottom: 1000px;
+        margin: 0px 0px;
+    }
+    .hero7 {
+        width: 100%;
+        margin: 0px 0px;
+    }
+    .hero8 {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
 
 
 
@@ -759,7 +848,7 @@ nav a:hover {
     }
     .card {
         width: 92%;
-        margin: 30px 10px;
+        margin: 30px 15px;
     }
     .card-button {
         padding-top: 30px;
