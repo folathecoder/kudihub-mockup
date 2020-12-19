@@ -774,6 +774,9 @@ nav a:hover {
         flex-direction: column-reverse;
         margin-bottom: 100px;
     }
+    .main2 img {
+        margin-left: -10px;
+    }
     .hero3 {
         max-width: 100%;
     }
