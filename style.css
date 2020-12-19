@@ -8,11 +8,12 @@ body {
 }
 header {
     height: 100px;
-    max-width: 100%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 .logo { 
     max-width: 10%;
@@ -34,6 +35,9 @@ nav a {
 }
 nav a:hover {
     color: #3221ce;
+}
+.burger-menu {
+    display: none;
 }
 .header-button {
     max-width: 25%;
@@ -67,6 +71,7 @@ nav a:hover {
     max-width: 1024px;
     min-height: 1000px;
     margin: 0px auto;
+    padding-top: 100px;
 }
 .main1 {
     max-width: 100%;
@@ -127,8 +132,8 @@ nav a:hover {
     max-width: 50%;
 }
 .hero2 img{
-    max-width: 400px;
-    max-height: 400px;
+    width: 400px;
+    height: 400px;
     padding-left: 50px;
 }
 .sponsor {
@@ -611,11 +616,126 @@ nav a:hover {
 
 
 
-@media (max-width:828px) {
+@media (max-width:844px) {
+    .burger-menu {
+        display: block; 
+        margin-right:40px;
+    }
+    .burger-dropdown {
+        display: none;
+    }
+    .burger-menu img {
+        width: 20px;
+    }
+    nav {
+        display: none;
+    }
+    .button2 {
+        display: none;
+    }
+    .sponsor1 {
+        width: 22%; 
+    }
+    .sponsor2 {
+        width: 22%; 
+    }
+    .sponsor3 {
+        width: 22%; 
+    }
+    .sponsor4 {
+        width: 22%; 
+    }
+    .sponsor5 {
+        width: 22%; 
+    }
+    .sponsor6 {
+        width: 22%; 
+    }
+    .sponsor7 {
+        width: 22%; 
+    }
+    .sponsor8 {
+        width: 22%; 
+    }
+    .sponsor9 {
+        width: 22%; 
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .hero2 img {
+        width: 300px;
+        height: 300px;
+    }
+    .main2 img {
+        width: 384px;
+        height: 192px;
+    }
+    .main3 img {
+        width: 384px;
+        height: 192px;
+    }
+    .main4 img {
+        width: 384px;
+        height: 192px;
+    }
+    .hero6 {
+        margin-right: 20px; 
+    }
     .para {
         padding: 0px 50px;
     }
+}
 
+@media (max-width:688px) {
+
+    header {
+
+    }
+    .container {
+        padding-top: 150px;
+    }
+    .main1 {
+        display: block;
+        max-width: 100%;
+    }
+    .hero1 {
+        margin: 0px 0px;
+        width: 50%;
+        text-align: center;
+    }
+    .hero2 {
+        width: 50%;
+    }
+    .main2 {
+        display: block;
+        max-width: 100%;
+    }
+    .main3 {
+        display: block;
+        max-width: 100%;
+    }
+
+
+    .cards {
+        display: block;
+        width: 100%;
+    }
+    .card {
+        width: 50%;
+    }
+    .para {
+        display: none;
+
+    }
 
 
 
